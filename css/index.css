@@ -293,6 +293,7 @@ header #search {
 }
 .banner .banner-text {
   width: 50%;
+  padding: 2rem;
 }
 @media (max-width: 500px) {
   .banner .banner-text {
@@ -312,6 +313,7 @@ header #search {
 .banner .banner-text p {
   font-size: 2rem;
   color: #8c8c8c;
+  margin-top: 2rem;
 }
 @media (max-width: 500px) {
   .banner .banner-text p {
@@ -335,7 +337,7 @@ header #search {
 .main .posts article {
   margin-top: 5px;
   border-bottom: 2px dashed #93B7BE;
-  padding: 1rem;
+  padding: 3rem;
 }
 @media (max-width: 500px) {
   .main .posts article {
@@ -343,7 +345,7 @@ header #search {
   }
 }
 .main .posts article h3 {
-  font-size: 5rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
 }
 .main .posts article p {
@@ -430,7 +432,7 @@ footer {
 }
 .about .posts article {
   border-bottom: 2px dashed #93B7BE;
-  padding: 1rem;
+  padding: 5rem;
   margin-top: -15rem;
 }
 @media (max-width: 500px) {
@@ -480,8 +482,8 @@ footer {
   font-size: 1.8rem;
 }
 .about .posts article a img {
-  padding: 4rem;
-  margin-bottom: -17rem;
+  padding: 5rem;
+  margin-bottom: -14rem;
   margin-top: 10rem;
   height: 30rem;
 }
