@@ -172,14 +172,22 @@ header .logo {
   header .logo {
     flex-direction: column;
     width: 75%;
-    margin-left: 3rem;
+    margin-left: 6rem;
   }
+}
+header .logo a {
+  color: #519E8A;
 }
 header .logo2 {
   font-size: 2rem;
-  margin-left: 13rem;
-  margin-top: 1rem;
+  margin-left: 14rem;
   margin-bottom: -2.5rem;
+}
+@media (max-width: 500px) {
+  header .logo2 {
+    margin-left: 20rem;
+    margin-bottom: 2rem;
+  }
 }
 header .logo:hover {
   color: #519E8A;
@@ -266,6 +274,7 @@ header #search {
     text-decoration: none;
     color: #93B7BE;
     display: flex;
+    margin-top: 3rem;
     margin-left: -4rem;
   }
   .hamburger--open a:hover {
@@ -301,9 +310,6 @@ header #search {
   }
 }
 @media (max-width: 800px) {
-  .banner .banner-text {
-    margin-top: -12rem;
-  }
 }
 .banner .banner-text h1 {
   font-size: 3rem;
