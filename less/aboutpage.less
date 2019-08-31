@@ -1,0 +1,185 @@
+.banner{
+    border-bottom: 3px solid @blue;
+    padding: 1rem;
+    }
+  
+    .abanner-text{
+      width: 50%;
+      margin-bottom: 3rem;
+      @media @phone {
+        width: 100%;
+      }
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+      }
+  
+      p{
+        font-size: 2rem;
+        color: @gray;
+        @media @phone{
+          width: 100%;
+        }
+      }
+  
+      .banner-btn{
+        font-size: 2rem;
+        text-decoration: none;
+        color: @seagreen;
+      }
+      .banner-btn:hover{
+        color: @blue;
+      }
+    }
+  
+    //Mainpage Content
+    .about{
+
+      .posts{
+          display: flex;
+          justify-content: space-evenly;
+          flex-direction: column;
+          flex-wrap: wrap;
+    
+        article {
+          border-bottom: 2px dashed @blue;
+          padding: 5rem;
+          margin-top: -15rem;
+          @media @phone{
+            max-width: 100%;
+          }
+          h3{
+            font-size: 5rem;
+            margin-bottom: 1rem;
+            
+          }
+          h2{
+            font-size: 3rem;
+            margin-bottom: 1rem;
+          }
+          p{
+            font-size: 2rem;
+            width: 60%;
+            color: @gray;
+            margin-bottom: 1rem;
+            @media @phone{
+              width: 100%;
+            }
+    
+          }
+                .button{
+            display:none;
+          }
+            img{
+              margin-left: 65rem;
+              width: 35%;
+              margin-bottom: -30rem;
+              @media @phone{
+                display: none;
+              }
+              @media @tablet{
+                margin-left: 45rem;
+                width: 35%
+              }
+              }
+            }
+          }
+        }
+
+  //image tweaks 
+    .about{
+      .posts{
+        article{
+          a{
+            font-size: 1.8rem;
+            img{
+              padding: 5rem;
+              margin-bottom:-14rem;
+              margin-top: 10rem;
+              height: 30rem;
+            }
+          }
+        }
+      }
+    }
+
+  //Mobile View
+@media @phone{
+  .about{
+
+    .posts{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        flex-wrap: wrap;
+  
+      article {
+        margin-top: 5px;
+        border-bottom: 2px dashed @blue;
+        padding: 1rem;
+        max-width: 100%;
+        h3{
+          font-size: 5rem;
+          margin-bottom: 1rem;
+        }
+  
+        p{
+          font-size: 2rem;
+          color: @gray;
+          margin-bottom: 1rem;
+            width: 100%;
+  
+        }
+              .button{
+                color:@seagreen;
+                text-decoration: none;   
+                display: flex;
+                font-size: 2rem;
+                margin-bottom: 5rem;
+        }
+  
+        .button:hover{
+          color: @blue;
+        }
+          img{
+            display: none;
+            @media @tablet{
+              margin-left: 45rem;
+              width: 35%
+            }
+            }
+          }
+        }
+      }
+  
+}
+
+//Tablet view for images
+.about{
+  .posts{
+    article{
+      img{
+        @media @tablet{
+          margin-left: 45rem;
+          width: 35%
+        }
+      }
+    }
+  }
+}
+
+//Home Button
+.home-btn{
+  display:none;
+  @media@phone{
+    display: flex;
+  a{
+    font-size: 3rem;
+    color: @blue;
+    text-decoration: none;
+  }
+  a:hover{
+    color: @seagreen;
+  }
+}
+}
